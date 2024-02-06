@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Portfolio's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(1, 1, 39, 0.849);
+            color: white;
+            font-family: 'Protest Revolution', sans-serif;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: red;
+            font-size: 1.08rem;
+        }
+
+        .left_side {
+            font-size: 1.5rem;
+        }
+
+        .first_section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 75px;
+        }
+
+        .first_section>div {
+            width: 40%;
+        }
+
+        .left_section {
+            font-size: 4rem;
+            margin: 30px 0;
+        }
+
+        .right_section img {
+            width: 80%;
+            align-items: center;
+            margin: 25px;
+        }
+
+        .name {
+            color: rgb(4, 0, 8);
+        }
+
+        #element {
+            color: yellow;
+            font-size: 2rem;
+        }
+
+        .second_section {
+            max-width: 78vw;
+            margin: auto;
+            height: 40vh;
+        }
+
+        .second_section h1 {
+            color: peru
+        }
+
+        .second_section .about {
+            background: peru;
+            width: 80vw;
+            height: 2px;
+            margin: 35px 0;
+        }
+
+        .third_section {
+            max-width: 78vw;
+            margin: auto;
+            height: 40vh;
+        }
+
+        .third_section h1 {
+            color: peru
+        }
+
+        .third_section .education {
+            background: peru;
+            width: 80vw;
+            height: 2px;
+            margin: 35px 0;
+        }
+
+        .fourth_section {
+            max-width: 78vw;
+            margin: auto;
+            height: 40vh;
+        }
+
+        .fourth_section h1 {
+            color: peru
+        }
+
+        .fourth_section .achievement {
+            background: peru;
+            width: 80vw;
+            height: 2px;
+            margin: 35px 0;
+        }
+
+        .fifth_section {
+            max-width: 78vw;
+            margin: auto;
+            height: 40vh;
+        }
+
+        .fifth_section h1 {
+            color: peru
+        }
+
+        .fifth_section .skills {
+            background: peru;
+            width: 80vw;
+            height: 2px;
+            margin: 35px 0;
+        }
+
+        .github {
+            font-size: 1rem;
+            background-color: cyan;
+        }
+
+        @media screen and (max-width:800px) {
+            body {
+                .first_section {
+                    flex-direction: column-reverse;
+                }
+
+                nav {
+                    flex-direction: column;
+                }
+
+                .left_section {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left_side">
+                Prashant's Portfolio
+            </div>
+            <div class="right side">
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+
+
+                    <li><a href="#achievement">Achievement</a></li>
+
+
+
+                    <li><a href="#skills">Skills</a></li>
+
+
+                    <li><a href="#blog">Blog</a></li>
+
+                </ul>
+                
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="first_section" id="home">
+            <div class="left_section">
+                Hi, I am
+                <span class="name">Prashant</span>
+                <div>And I am an undergraduate student.</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="resume">
+                        <a href="HI.pdf" class="resume">RESUME</a>
+                    </button>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/blackpearl-iiith" style="margin-left: 10px;">
+                        <img src="github.png" alt="GitHub" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://www.instagram.com/kumarprashant_123/" style="margin-left: 10px;">
+                        <img src="insta.jpg" alt="insta" style="width: 50px; height: 50px;">
+                    </a>
+                </div>
+            </div>
+            <div class="right_section">
+                <img src="pic.jpg" alt="">
+            </div>
+        </section>
+        <section class="second_section" id="about">
+            <h1>ABOUT</h1>
+            <div class="about">
+                <p>
+                    Hi, I am Prashant Kumar.Currently living in Hyderabad,Telangana. Right now, I am studying in IIIT
+                    HYDERABAD. I am doing btech in computer science with masters in computational human sciences. I was
+                    born and raised in Danapur, Bihar. My hobby includes Playing Chess, Cricket, Watching movies and
+                    Hanging out with friends.
+                </p>
+            </div>
+        </section>
+        <section class="third_section" id="education">
+            <h1>EDUCATION</h1>
+            <div class="education">
+                <p>
+                    <li>CLASS 2-8 DAV PUBLIC SCHOOL,VYAPUR</li>
+                    <li>CLASS 9-10 DR.DUKHAN RAM DAV PUBLIC SCHOOL,DANAPUR</li>
+                    <li>CLASS 11-12 MOTHER TERESA INTERNATIONAL ACADEMY, KHANPURA</li>
+                </p>
+            </div>
+        </section>
+        <section class="fourth_section" id="achievement">
+            <h1>ACHIEVEMENT</h1>
+            <div class="achievement">
+                <p>
+                    NOTHING TOO MUCH RIGHT NOW except I cleared:
+                    <li>JEE MAIN</li>
+                    <li>JEE ADVANCED</li>
+                    <li>UGEE</li>
+                    <li>WBJEE</li>
+                </p>
+            </div>
+        </section>
+        <section class="fifth_section" id="skills">
+            <h1>SKILLS</h1>
+            <div class="skills">
+                <p>
+                    I HAVE LEARNT:
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>C</li>
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome to the page 🙃'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+
+</html>
